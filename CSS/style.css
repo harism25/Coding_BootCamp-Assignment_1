@@ -1,0 +1,560 @@
+
+/*.bgheader
+{
+  background-image: url("/IMAGES/15327.jpg");
+  margin-left: auto;
+  margin-right: auto;
+}
+*/
+.container
+{
+  min-width: fit-content;
+  padding-bottom: 0.01%;
+  /*margin-bottom: ;*/
+}
+
+.headerImageFont
+{
+  color: lightgray;
+}
+
+/*body
+{
+  background-color: lightblue;
+  border-bottom: 3px solid orange;
+  color: white;
+}*/
+
+
+.background
+{
+  background-image: url("/IMAGES/15327.jpg");
+  /*background-blend-mode: darken;*/
+  background-size: cover;
+  opacity: 0.76;
+}
+
+.navbar
+{
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  padding-top: 0.7%;
+}
+
+.nav-list
+{
+  margin-left: -3%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.logo
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 221, 206);
+}
+
+.logo img
+{
+  width: 150px;
+  border-radius: 10px;
+}
+
+.nav-item-home
+{
+  margin-left: 0.8%;
+}
+
+.nav-list li
+{
+  list-style: none;
+  padding: 24px 2.5px;
+}
+
+.nav-list li a
+{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover
+{
+  color: rgb(173, 196, 43);
+}
+
+.rightnav
+{
+  margin-left: 3%;
+  width: 30%;
+  text-align: right;
+}
+
+#search
+{
+  margin-top: 4%;
+  margin-bottom: 30%;
+  padding: 5px;
+  font-size: 12px;
+  border: 3px solid yellowgreen;
+  border-radius: 15px;
+}
+
+.btn
+{
+  margin-top: -0.7%;
+  border: 2px solid white;
+  border-radius: 8px;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-sm
+{
+  padding: 3px 10px;
+  vertical-align: middle;
+}
+
+.box-main
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  max-width: 80%;
+  margin: auto;
+  height: 80%;
+}
+
+.firsthalf
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.secondhalf
+{
+  width: 30%;
+}
+
+.secondhalf img
+{
+  width: 70%;
+  border: 4px solid white;
+  border-radius: 150px;
+  display: block;
+  margin: auto;
+}
+
+.text-big
+{
+  font-family: "Piazzolla", serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.text-small
+{
+  font-size: 20px;
+}
+
+.sr-only
+{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.formattingSurname
+{
+  margin-left: 1.9%;
+  background-color: blanchedalmond;
+}
+
+.formattingName
+{
+  margin-left: 1.9%;
+  background-color: blanchedalmond;
+}
+
+.formattingDate
+{
+  margin-left: 1.1%;
+  width: 12.1%;
+  background-color: blanchedalmond;
+}
+
+.formattingFees
+{
+  margin-left: 1.05%;
+  width: 12.1%;
+  background-color: blanchedalmond;
+}
+
+.formattingCourseTitle
+{
+  margin-left: 7%;
+  background-color: blanchedalmond;
+}
+
+.formattingCourseType
+{
+  margin-left: 5.5%;
+  background-color: blanchedalmond;
+}
+
+.formattingRunTime
+{
+  margin-left: 4.41%;
+  background-color: blanchedalmond;
+}
+
+.formattingStartDate
+{
+  margin-left: 2.2%;
+  width: 12.23%;
+  background-color: blanchedalmond;
+}
+
+.formattingEndDate
+{
+  margin-left: 2.61%;
+  width: 12.25%;
+  background-color: blanchedalmond;
+}
+
+.formattingAttendPrice
+{
+  margin-left: 1.5%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmtTitle
+{
+  margin-left: 5.52%;
+  background-color: blanchedalmond;
+}
+
+.formattingSubmitDate
+{
+  margin-left: 0%;
+  width: 12.06%;
+  background-color: blanchedalmond;
+}
+
+.formattingTrnrSurname
+{
+  margin-left: 4.6%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingTrnrName
+{
+  margin-left: 4.6%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingTeachingCrs
+{
+  margin-left: 0%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingStudCrsTitle
+{
+  margin-left: 2.65%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingStudCrsType
+{
+  margin-left: 1.1%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingStudCrsRunTime
+{
+  margin-left: 0.2%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingStudCrsSurname
+{
+  margin-left: 0.14%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingStudCrsName
+{
+  margin-left: 0.2%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmtCrsTitle
+{
+  margin-left: 2.69%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmtCrsType
+{
+  margin-left: 1.14%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmtCrsRunTime
+{
+  margin-left: 0.17%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmtCrsAsTitle
+{
+  margin-left: 0.5%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmtCrsSubDt
+{
+  margin-left: 0.45%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingTrnrCrsTitle
+{
+  margin-left: 2.69%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingTrnrCrsType
+{
+  margin-left: 1.14%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingTrnrCrsRunTime
+{
+  margin-left: 0.2%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingTrnrCrsSurname
+{
+  margin-left: 0.6%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingTrnrCrsName
+{
+  margin-left: 0.7%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmCrsStdTitle
+{
+  margin-left: 3%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmCrsStdType
+{
+  margin-left: 1.4%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmCrsStdRunTime
+{
+  margin-left: 0.5%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmCrsStdAsTitle
+{
+  margin-left: 2.29%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmCrsStdSubDt
+{
+  margin-left: 0.74%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmCrsStdSurname
+{
+  margin-left: 0.7%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+.formattingAsgnmCrsStdName
+{
+  margin-left: 0.8%;
+  width: 11.7%;
+  background-color: blanchedalmond;
+}
+
+body
+{
+  background-color: lightblue;
+  color: white;
+}
+
+.footer
+{
+  background-image: url("/IMAGES/15327.jpg");
+  margin-left: auto;
+  margin-right: auto;
+  /*position: auto;*/
+  width: 100%;
+  margin-bottom: -1%;
+  opacity: 0.76;
+  margin-top: 11.3%;
+  margin-top: 11.4% !important;
+  text-decoration: underline;
+}
+
+.mybox img
+{
+  max-height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.no-radius
+{
+  border-radius: 0 !important;
+}
+
+.bg-custom
+{
+  background-color: crimson;
+  border-bottom: 3px solid orange;
+  color: white;
+}
+
+.object
+{
+  text-align: left;
+}
+
+#mainId
+{
+  text-align: left;
+}
+
+.thumbnail img
+{
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 26px;
+  margin-top: 19px;
+}
+
+.center
+{
+  text-align: center;
+}
+
+.saveinput
+{
+  text-align:center;
+  width: 150px;
+  border: 4px solid rgb(221, 245, 9);
+  border-radius: 4px;
+}
+
+.text-footer
+{
+  text-align: center;
+  padding: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.section
+{
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90%;
+  margin: auto;
+}
+
+
+.section-Left
+{
+  flex-direction: row-reverse;
+}
+
+.paras
+{
+  padding: 50px 65px;
+}
+
+.firstsection
+{
+  background-color: green;
+  height: 400px;
+}
+
+.secondsection
+{
+  background-color: blue;
+  height: 400px;
+}
+
+.formsection
+{
+  overflow-x: hidden;
+  overflow-y: auto;
+}

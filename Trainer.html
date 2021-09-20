@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <title>Trainer</title>
+
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="Images/desktop.png">
+            </div>
+            <li class="nav-item-home">
+                <a class="nav-link" href="Home.html">Home Page<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Course.html">Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Student.html">Students</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Assignment.html">Assignments</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="Trainer.html">Trainers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="StudentPerCourse.html">Students Per Course</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="AssignmentPerCourse.html">Assignments Per Course</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="TrainerPerCourse.html">Trainers Per Course</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="AssignmentsPerStudentPerCourse.html">
+                    Assignments Per Student Per Course</a>
+            </li>
+        </ul>
+
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+    <nav>
+        <h3 style="color: rgb(245, 229, 9); text-align: left; background-color:rgb(124, 34, 56)">
+            <br />
+            &nbsp;&nbsp;Add a new trainer below:
+        </h3>
+        <br />
+        <form action="Trainer.html" id="">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Surname:<span style="margin: 2px"></span>
+                <input type="text" name="surname" id="trnrSurname" class="formattingTrnrSurname">
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Name:<span style="margin: 12px"></span>
+                <input type="text" name="name" id="trnrName" class="formattingTrnrName">
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Teaching course:<span style="margin: 12px"></span>
+                <input type="text" name="name" id="teachingCrs" class="formattingTeachingCrs">
+            </p>
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button style="background-color: aliceblue" type="button" name="submit"
+                class="saveinput" onclick="add_trainerrow()" ;>Save Trainer</button>
+            <br />
+        </form>
+
+        <br>
+
+        <br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12""?}">
+                    <div id="data" class="table-responsive">
+
+                        <table class="table table-dark table-bordered table-hover" id="data_table_trainers">
+                            <thead>
+                                <tr>
+                                    <th id="trsrnm" scope="col">Surname</th>
+                                    <th id="trnm" scope="col">Name</th>
+                                    <th id="crsteach" scope="col">Teaching course</th>
+                                    <th scope="col">Options</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <footer class="footer">
+        <p class="text-footer">
+            Copyright © - Haris M.
+        </p>
+    </footer>
+
+    
+    <script src="JS/test.js">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

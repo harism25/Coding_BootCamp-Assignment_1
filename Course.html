@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <title>Course</title>
+
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src="Images/desktop.png">
+            </div>
+            <li class="nav-item-home">
+                <a class="nav-link" href="HTML/Home.html">Home Page<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="HTML/Course.html">Courses</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="HTML/Student.html">Students</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="HTML/Assignment.html">Assignments</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="HTML/Trainer.html">Trainers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="HTML/StudentPerCourse.html">Students Per Course</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="HTML/AssignmentPerCourse.html">Assignments Per Course</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="HTML/TrainerPerCourse.html">Trainers Per Course</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="HTML/AssignmentsPerStudentPerCourse.html">
+                    Assignments Per Student Per Course</a>
+            </li>
+        </ul>
+
+        <div class="rightnav">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+    <nav>
+        <h3 style="color: rgb(245, 229, 9); text-align: left; background-color:rgb(124, 34, 56)">
+            <br />
+            &nbsp;&nbsp;Add a new course below:
+        </h3>
+        <br />
+        <form action="HTML/Course.html" id="">
+            <p>&nbsp;&nbsp;&nbsp;Title:<span style="margin: 2px"></span>
+                <input type="text" name="title" id="courseTitle" class="formattingCourseTitle">
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;Type:<span style="margin: 12px"></span>
+                <input type="text" name="type" id="courseType" class="formattingCourseType">
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;Runtime:<span style="margin: 7px"></span>
+                <input type="text" name="runtime" id="runTime" class="formattingRunTime">
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;Starting Date:<span style="margin: 7px"></span>
+                <input type="date" name="startdate" id="startDate" class="formattingStartDate">
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;Ending Date:<span style="margin: 7px"></span>
+                <input type="date" name="enddate" id="endDate" class="formattingEndDate">
+            </p>
+            <p>&nbsp;&nbsp;&nbsp;Price to attend:<span style="margin: 7px"></span>
+                <input type="number" name="price" id="attendPrice" class="formattingAttendPrice">
+            </p>
+            <br />
+            &nbsp;&nbsp;&nbsp;<button style="background-color: aliceblue" type="button" name="submit" class="saveinput" onclick="add_courserow()" ;>Save
+                Course</button>
+            <br />
+        </form>
+
+        <br>
+
+        <br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12""?}">
+                    <div id="data" class="table-responsive">
+
+                        <table class="table table-dark table-bordered table-hover" id="data_table_courses">
+                            <thead>
+                                <tr>
+                                    <!-- <th scope="col">A/A</th> -->
+                                    <th id="crstitle" scope="col">Title</th>
+                                    <th id="crstype" scope="col">Type</th>
+                                    <th id="crsruntime" scope="col">Runtime</th>
+                                    <th id="strtdate" scope="col">Starting Date</th>
+                                    <th id="edate" scope="col">Ending Date</th>
+                                    <th id="attprc" scope="col">Attending Price</th>
+                                    <th scope="col">Options</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <footer class="footer">
+        <p class="text-footer">
+            Copyright © - Haris M.
+        </p>
+    </footer>
+
+
+    <script src="JS/test.js">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
